@@ -1,0 +1,114 @@
+#torso
+push
+move
+300 400 0
+rotate
+y -30
+rotate
+x -20
+box
+0 0 0 100 250 20
+#right leg
+pop
+push
+move
+265 175 0
+rotate
+z -70
+rotate
+y 20
+box
+0 0 0 20 120 30
+pop
+push
+move
+150 140 0
+rotate
+y 10
+rotate
+z -20
+box
+0 0 0 20 120 30
+#left leg
+pop
+push
+move
+350 175 0
+rotate
+z -70
+rotate
+y 20
+box
+0 0 0 20 140 30
+pop
+push
+move
+230 150 0
+rotate
+y 10
+rotate
+z -20
+box
+0 0 0 20 140 30
+
+#head
+pop
+push
+move
+350 450 0
+rotate
+x 70
+rotate
+z 50
+torus
+0 0 0 33 34
+
+#right arm
+pop
+push
+move
+290 400 0
+rotate
+z -50
+rotate
+y 10
+box
+0 0 0 20 120 20
+pop
+push
+move
+190 320 0
+rotate
+x -30
+box
+0 0 0 20 -150 20
+
+#left arm
+pop
+push
+move
+390 400 0
+rotate
+z 10
+rotate
+y 10
+box
+0 0 0 20 120 20
+pop
+push
+move
+410 290 0
+rotate
+y -20
+rotate
+x -50
+box
+0 0 0 20 150 20
+
+
+
+
+
+display
+save
+pic.png
